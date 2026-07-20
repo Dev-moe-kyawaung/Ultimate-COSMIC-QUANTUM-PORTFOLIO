@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌌 MOE KYAW AUNG 🌌 V10 - ULTIMATE COSMIC QUANTUM REALITY</title>
+    
+    <!-- Meta Tags -->
+    <meta name="description" content="V10 Ultimate Cosmic Quantum Reality - The most advanced portfolio with AI, Neural Network, Holographic Universe, Quantum Computing, and Reality Engineering">
+    <meta name="keywords" content="V10, Ultimate, Cosmic, Quantum, Reality, AI, Neural, Holographic, Android Developer">
+    <meta name="author" content="Moe Kyaw Aung">
+    <meta property="og:title" content="🌌 V10 Ultimate Cosmic Quantum Reality - Moe Kyaw Aung">
+    <meta property="og:description" content="The pinnacle of portfolio evolution - Beyond imagination, beyond reality">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#000000">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&family=Russo+One&family=Exo+2:wght@100;900&family=Chakra+Petch:wght@300;700&family=Audiowide&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <style>
+        /* ============================================================
+           V10 QUANTUM REALITY SYSTEM
+           ============================================================ */
+        :root {
+            /* Quantum Colors */
+            --quantum-void: #000000;
+            --quantum-deep: #050010;
+            --quantum-purple: #1a0033;
+            --quantum-cyan: #00fff5;
+            --quantum-pink: #ff0080;
+            --quantum-gold: #ffd700;
+            
+            /* Quantum Gradients */
+            --quantum-rainbow: linear-gradient(135deg, #ff0000 0%, #ff7f00 10%, #ffff00 20%, #00ff00 30%, #0000ff 40%, #4b0082 50%, #9400d3 60%, #ff0080 70%, #ff0000 80%, #ff7f00 90%, #ffff00 100%);
+            --quantum-neon: linear-gradient(135deg, #667eea 0%, #764ba2 20%, #f093fb 40%, #4facfe 60%, #00f2fe 80%, #667eea 100%);
+            --quantum-cosmic: linear-gradient(135deg, #ff0080 0%, #ff8c00 16%, #ffd700 32%, #00ff00 48%, #00ffff 64%, #0080ff 80%, #8000ff 96%, #ff0080 100%);
+            
+            /* Spacing */
+            --space-sm: 1rem;
+            --space-md: 2rem;
+            --space-lg: 4rem;
+            --space-xl: 8rem;
+        }
+
+        /* ============================================================
+           BASE RESET
+           ============================================================ */
+        *, *::before, *::after { 
+            margin: 0; padding: 0; box-sizing: border-box; 
+        }
+
+        html {
+            scroll-behavior: smooth;
+            overflow-x: hidden;
+        }
+
+        body {
+            font-family: 'Exo 2', sans-serif;
+            background: var(--quantum-void);
+            color: white;
+            overflow-x: hidden;
+            min-height: 100vh;
+        }
+
+        /* ============================================================
+           PRELOADER - 12 RING QUANTUM MATRIX
+           ============================================================ */
+        .preloader {
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: radial-gradient(circle at center, #1a0033, #000000);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 99999;
+            transition: all 2s ease;
+        }
+        .preloader.hidden {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .quantum-matrix {
+            position: relative;
+            width: 500px;
+            height: 500px;
+        }
+
+        .quantum-ring {
+            position: absolute;
+            border: 3px solid transparent;
+            border-radius: 50%;
+            animation: quantumSpin 12s cubic-bezier(0.68, -0.6, 0.32, 1.6) infinite;
+        }
+
+        .quantum-ring:nth-child(1) {
+            width: 100%; height: 100%;
+            border-top: 3px solid #ff0000;
+            border-right: 3px solid #ff7f00;
+            box-shadow: 0 0 40px #ff0000;
+            animation-delay: 0s;
+        }
+        .quantum-ring:nth-child(2) {
+            width: 92%; height: 92%; top: 4%; left: 4%;
+            border-top: 3px solid #ffff00;
+            border-right: 3px solid #00ff00;
+            box-shadow: 0 0 40px #ffff00;
+            animation-delay: -1s;
+        }
+        .quantum-ring:nth-child(3) {
+            width: 84%; height: 84%; top: 8%; left: 8%;
+            border-top: 3px solid #0000ff;
+            border-right: 3px solid #4b0082;
+            box-shadow: 0 0 40px #0000ff;
+            animation-delay: -2s;
+        }
+        .quantum-ring:nth-child(4) {
+            width: 76%; height: 76%; top: 12%; left: 12%;
+            border-top: 3px solid #ff0080;
+            border-right: 3px solid #ff0000;
+            box-shadow: 0 0 40px #ff0080;
+            animation-delay: -3s;
+        }
+        .quantum-ring:nth-child(5) {
+            width: 68%; height: 68%; top: 16%; left: 16%;
+            border-top: 3px solid #667eea;
+            border-right: 3px solid #764ba2;
+            box-shadow: 0 0 40px #667eea;
+            animation-delay: -4s;
+        }
+        .quantum-ring:nth-child(6) {
+            width: 60%; height: 60%; top: 20%; left: 20%;
+            border-top: 3px solid #f093fb;
+            border-right: 3px solid #4facfe;
+            box-shadow: 0 0 40px #f093fb;
+            animation-delay: -5s;
+        }
+        .quantum-ring:nth-child(7) {
+            width: 52%; height: 52%; top: 24%; left: 24%;
+            border-top: 3px solid #00f2fe;
+            border-right: 3px solid #fa709a;
+            box-shadow: 0 0 40px #00f2fe;
+            animation-delay: -6s;
+        }
+        .quantum-ring:nth-child(8) {
+            width: 44%; height: 44%; top: 28%; left: 28%;
+            border-top: 3px solid #fee140;
+            border-right: 3px solid #30cfd0;
+            box-shadow: 0 0 40px #fee140;
+            animation-delay: -7s;
+        }
+        .quantum-ring:nth-child(9) {
+            width: 36%; height: 36%; top: 32%; left: 32%;
+            border-top: 3px solid #a8edea;
+            border-right: 3px solid #fed6e3;
+            box-shadow: 0 0 40px #a8edea;
+            animation-delay: -8s;
+        }
+        .quantum-ring:nth-child(10) {
+            width: 28%; height: 28%; top: 36%; left: 36%;
+            border-top: 3px solid #ff0080;
+            border-right: 3px solid #ff8c00;
+            box-shadow: 0 0 40px #ff0080;
+            animation-delay: -9s;
+        }
+        .quantum-ring:nth-child(11) {
+            width: 20%; height: 20%; top: 40%; left: 40%;
+            border-top: 3px solid #00ffa3;
+            border-right: 3px solid #ffd700;
+            box-shadow: 0 0 40px #00ffa3;
+            animation-delay: -10s;
+        }
+        .quantum-ring:nth-child(12) {
+            width: 12%; height: 12%; top: 44%; left: 44%;
+            border-top: 3px solid #7b2ff7;
+            border-right: 3px solid #f107a3;
+            box-shadow: 0 0 40px #7b2ff7;
+            animation-delay: -11s;
+        }
+
+        @keyframes quantumSpin {
+            0% { transform: rotate(0deg) scale(1); }
+            25% { transform: rotate(90deg) scale(1.1); }
+            50% { transform: rotate(180deg) scale(0.9); }
+            75% { transform: rotate(270deg) scale(1.05); }
+            100% { transform: rotate(360deg) scale(1); }
+        }
+
+        .quantum-text {
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: 'Orbitron', sans-serif;
+            font-size: 5rem;
+            font-weight: 900;
+            background: var(--quantum-rainbow);
+            background-size: 500%;
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+            animation: rainbowShift 5s linear infinite, textQuantumPulse 3s ease-in-out infinite;
+            text-shadow: 0 0 120px rgba(255, 255, 255, 0.8);
+            z-index: 1;
+            letter-spacing: 10px;
+        }
+
+        @keyframes rainbowShift {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 500% 50%; }
+        }
+
+        @keyframes textQuantumPulse {
+            0%, 100% { transform: translate(-50%, -50%) scale(1); }
+            50% { transform: translate(-50%, -50%) scale(1.2); }
+        }
+
+        /* ============================================================
+           COSMIC BACKGROUND - 3D PARALLAX
+           ============================================================ */
+        .cosmic-bg {
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: 
+                radial-gradient(circle at 20% 30%, rgba(102,126,234,0.3), transparent 60%),
+                radial-gradient(circle at 80% 60%, rgba(255,215,0,0.2), transparent 60%),
+                radial-gradient(circle at 50% 20%, rgba(255,0,128,0.2), transparent 60%),
+                radial-gradient(circle at 30% 80%, rgba(0,255,255,0.15), transparent 60%),
+                radial-gradient(circle at 70% 40%, rgba(240,147,251,0.2), transparent 60%);
+            animation: cosmicBreath 30s ease-in-out infinite;
+            z-index: -1;
+        }
+
+        @keyframes cosmicBreath {
+            0%, 100% { transform: scale(1) rotate(0deg); }
+            33% { transform: scale(1.08) rotate(2deg); }
+            66% { transform: scale(0.95) rotate(-2deg); }
+        }
+
+        /* Stars */
+        .star-particle {
+            position: absolute;
+            background: white;
+            border-radius: 50%;
+            animation: starTwinkle var(--duration) ease-in-out infinite;
+        }
+
+        @keyframes starTwinkle {
+            0%, 100% { opacity: 0.2; transform: scale(1); }
+            50% { opacity: 1; transform: scale(1.5); }
+        }
+
+        /* ============================================================
+           NAVIGATION - HOLOGRAPHIC
+           ============================================================ */
+        .navbar {
+            position: fixed;
+            top: 15px; left: 50%;
+            transform: translateX(-50%);
+            width: 96%; max-width: 1600px;
+            background: rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(40px);
+            -webkit-backdrop-filter: blur(40px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 80px;
+            padding: 0.8rem 2.5rem;
+            z-index: 1000;
+            transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+        .navbar.scrolled {
+            background: rgba(0, 0, 0, 0.95);
+            border-color: rgba(255, 215, 0, 0.3);
+            box-shadow: 0 10px 60px rgba(255, 215, 0, 0.2);
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-logo {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 2.2rem;
+            font-weight: 900;
+            background: var(--quantum-rainbow);
+            background-size: 300%;
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+            text-decoration: none;
+            animation: rainbowShift 8s linear infinite;
+            letter-spacing: 4px;
+        }
+
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: 0.8rem;
+            align-items: center;
+        }
+
+        .nav-link {
+            color: rgba(255, 255, 255, 0.9);
+            text-decoration: none;
+            padding: 0.7rem 1.8rem;
+            border-radius: 40px;
+            font-weight: 700;
+            font-size: 0.95rem;
+            font-family: 'Chakra Petch', sans-serif;
+            transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+            letter-spacing: 1px;
+        }
+
+        .nav-link:hover {
+            background: rgba(255, 0, 128, 0.2);
+            color: #ff0080;
+            transform: translateY(-2px);
+            box-shadow: 0 0 30px rgba(255, 0, 128, 0.4);
+        }
+
+        .menu-toggle {
+            display: none;
+            flex-direction: column;
+            gap: 6px;
+            cursor: pointer;
+        }
+        .menu-toggle span {
+            width: 30px;
+            height: 3px;
+            background: var(--quantum-rainbow);
+            background-size: 200%;
+            border-radius: 3px;
+            transition: all 0.6s ease;
+            animation: rainbowShift 3s linear infinite;
+        }
+
+        /* ============================================================
+           HERO - QUANTUM REALITY
+           ============================================================ */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10rem 2rem 4rem;
+            position: relative;
+            perspective: 5000px;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            max-width: 1600px;
+            transform-style: preserve-3d;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 1.2rem;
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(30px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            padding: 1.2rem 3.5rem;
+            border-radius: 80px;
+            font-size: 1rem;
+            font-weight: 700;
+            margin-bottom: 3rem;
+            animation: slideDown 2s ease, hoverFloat 7s ease-in-out infinite 2s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-badge::before {
+            content: '';
+            position: absolute;
+            top: 0; left: -200%;
+            width: 200%; height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            animation: shimmer 10s infinite;
+        }
+
+        @keyframes shimmer {
+            0% { left: -200%; }
+            100% { left: 200%; }
+        }
+
+        @keyframes slideDown {
+            from { opacity: 0; transform: translateY(-120px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes hoverFloat {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+        }
+
+        .badge-dot {
+            width: 16px; height: 16px;
+            background: radial-gradient(circle, #ff0080, #ffd700);
+            border-radius: 50%;
+            box-shadow: 0 0 30px #ff0080, 0 0 60px #ffd700;
+            animation: badgePulse 2.5s ease-in-out infinite;
+        }
+        @keyframes badgePulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.8); }
+        }
+
+        .hero-title {
+            font-family: 'Russo One', sans-serif;
+            font-size: clamp(4rem, 18vw, 14rem);
+            font-weight: 900;
+            margin-bottom: 1.5rem;
+            line-height: 0.85;
+            animation: fadeUp 1.8s ease 0.3s backwards;
+        }
+
+        .hero-title span {
+            display: inline-block;
+            background: var(--quantum-rainbow);
+            background-size: 500%;
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+            animation: rainbowShift 8s linear infinite, titleQuantumFloat 20s ease-in-out infinite;
+            text-shadow: 0 0 100px rgba(255,0,128,0.4);
+            position: relative;
+        }
+
+        @keyframes titleQuantumFloat {
+            0%, 100% { transform: translateY(0) rotateX(0); }
+            25% { transform: translateY(-25px) rotateX(8deg); }
+            50% { transform: translateY(15px) rotateX(-5deg); }
+            75% { transform: translateY(-15px) rotateX(5deg); }
+        }
+
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(120px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .hero-subtitle {
+            font-size: clamp(1.2rem, 3vw, 2.5rem);
+            font-weight: 700;
+            background: var(--quantum-neon);
+            background-size: 300%;
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+            animation: rainbowShift 6s linear infinite;
+            margin-bottom: 1rem;
+            font-family: 'Orbitron', sans-serif;
+        }
+
+        .hero-desc {
+            font-size: 1.1rem;
+            max-width: 800px;
+            margin: 0 auto 2.5rem;
+            line-height: 2;
+            opacity: 0.85;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 2.5rem;
+        }
+
+        .btn {
+            padding: 1.2rem 3.5rem;
+            border-radius: 70px;
+            font-size: 1.1rem;
+            font-weight: 900;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 1.2rem;
+            transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+            cursor: pointer; border: none;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-family: 'Audiowide', sans-serif;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-primary {
+            background: var(--quantum-rainbow);
+            background-size: 400%;
+            color: #000;
+            box-shadow: 0 10px 40px rgba(255,0,128,0.5);
+            animation: rainbowShift 6s linear infinite;
+        }
+        .btn-primary::before {
+            content: '';
+            position: absolute;
+            top: 0; left: -200%;
+            width: 200%; height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.9), transparent);
+            transition: left 1s;
+        }
+        .btn-primary:hover::before { left: 200%; }
+        .btn-primary:hover {
+            transform: translateY(-8px) scale(1.1);
+            box-shadow: 0 20px 60px rgba(255,0,128,0.8);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: white;
+            border: 2px solid rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(20px);
+        }
+        .btn-secondary:hover {
+            border-color: #ff0080;
+            transform: translateY(-8px) scale(1.1);
+            box-shadow: 0 0 50px rgba(255,0,128,0.5);
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1.8rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+
+        .social-link {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 2rem;
+            transition: all 0.6s ease;
+            width: 60px; height: 60px;
+            display: flex; align-items: center; justify-content: center;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 50%;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .social-link:hover {
+            color: #ff0080;
+            transform: translateY(-8px) scale(1.2);
+            box-shadow: 0 0 40px rgba(255,0,128,0.5);
+            border-color: #ff0080;
+        }
+
+        /* ============================================================
+           RESPONSIVE
+           ============================================================ */
+        @media (max-width: 1024px) {
+            .hero-title { font-size: clamp(3rem, 20vw, 10rem); }
+        }
+
+        @media (max-width: 768px) {
+            .navbar { padding: 0.6rem 1.5rem; }
+            .nav-logo { font-size: 1.8rem; }
+            .nav-menu {
+                position: fixed;
+                top: 70px; left: -100%;
+                width: 100%; height: calc(100vh - 70px);
+                background: rgba(0, 0, 0, 0.98);
+                backdrop-filter: blur(40px);
+                flex-direction: column;
+                padding: 4rem;
+                transition: left 0.5s ease;
+                gap: 1.5rem;
+            }
+            .nav-menu.active { left: 0; }
+            .menu-toggle { display: flex; }
+            .menu-toggle.active span:nth-child(1) {
+                transform: rotate(45deg) translate(10px, 8px);
+            }
+            .menu-toggle.active span:nth-child(2) { opacity: 0; }
+            .menu-toggle.active span:nth-child(3) {
+                transform: rotate(-45deg) translate(10px, -8px);
+            }
+            .hero-title { font-size: clamp(2.5rem, 18vw, 8rem); }
+            .hero-badge { padding: 0.8rem 2rem; font-size: 0.9rem; }
+            .btn { padding: 1rem 2.5rem; font-size: 1rem; }
+        }
+
+        @media (max-width: 480px) {
+            .hero-buttons { flex-direction: column; }
+            .btn { width: 100%; justify-content: center; }
+            .quantum-matrix { width: 350px; height: 350px; }
+            .quantum-text { font-size: 3.5rem; }
+        }
+
+        /* ============================================================
+           ACCESSIBILITY
+           ============================================================ */
+        *:focus-visible {
+            outline: 3px solid #ff0080;
+            outline-offset: 5px;
+            border-radius: 20px;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Preloader - 12 Ring Quantum Matrix -->
+    <div class="preloader" id="preloader">
+        <div class="quantum-matrix">
+            <div class="quantum-ring"></div>
+            <div class="quantum-ring"></div>
+            <div class="quantum-ring"></div>
+            <div class="quantum-ring"></div>
+            <div class="quantum-ring"></div>
+            <div class="quantum-ring"></div>
+            <div class="quantum-ring"></div>
+            <div class="quantum-ring"></div>
+            <div class="quantum-ring"></div>
+            <div class="quantum-ring"></div>
+            <div class="quantum-ring"></div>
+            <div class="quantum-ring"></div>
+            <div class="quantum-text">V10</div>
+        </div>
+    </div>
+
+    <!-- Cosmic Background -->
+    <div class="cosmic-bg" id="cosmicBg"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">🌌 V10 🌌</a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                <span>🌌 V10 • Ultimate Cosmic Quantum Reality • Transcendent</span>
+            </div>
+
+            <h1 class="hero-title">
+                <span>MOE KYAW AUNG</span>
+            </h1>
+
+            <div class="hero-subtitle">∞ Quantum Reality Architect ∞</div>
+
+            <p class="hero-desc">
+                Welcome to V10 - the pinnacle of portfolio evolution. 12+ years of transcendent 
+                innovation. Where quantum computing meets reality engineering, and every line 
+                of code reshapes the fabric of possibility.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fas fa-atom"></i> Explore Quantum
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <i class="fas fa-infinity"></i> Connect Infinity
+                </a>
+            </div>
+
+            <div class="social-links">
+                <a href="https://github.com/Dev-moe-kyawaung" target="_blank" class="social-link" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/moe-kyaw-aung-2653093a1" target="_blank" class="social-link" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:moekyawaung@programmer.net" class="social-link" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="tel:+959889000889" class="social-link" aria-label="Phone">
+                    <i class="fas fa-phone"></i>
+                </a>
+                <a href="https://t.me/moekyawaung" target="_blank" class="social-link" aria-label="Telegram">
+                    <i class="fab fa-telegram"></i>
+                </a>
+                <a href="https://www.instagram.com/moekyawaung" target="_blank" class="social-link" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // ============================================================
+        // V10 INITIALIZATION
+        // ============================================================
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                document.getElementById('preloader').classList.add('hidden');
+                initStars();
+                initEvents();
+                console.log('%c🌌 V10 ULTIMATE COSMIC QUANTUM REALITY', 'color: #ff0080; font-size: 50px; font-weight: 900;');
+                console.log('%c🚀 Version 10 - The Pinnacle of Portfolio Evolution', 'color: #00fff5; font-size: 24px;');
+                console.log('%c📧 Contact: moekyawaung@programmer.net', 'color: #ffd700; font-size: 18px;');
+            }, 5000);
+        });
+
+        // ============================================================
+        // STAR GENERATOR
+        // ============================================================
+        function initStars() {
+            const bg = document.getElementById('cosmicBg');
+            const starColors = ['#ffffff', '#00fff5', '#ff0080', '#ffd700', '#00ff00', '#4facfe'];
+            
+            function createStars(count, minSize, maxSize, opacity) {
+                for (let i = 0; i < count; i++) {
+                    const star = document.createElement('div');
+                    star.className = 'star-particle';
+                    const size = Math.random() * (maxSize - minSize) + minSize;
+                    star.style.width = size + 'px';
+                    star.style.height = size + 'px';
+                    star.style.left = Math.random() * 100 + '%';
+                    star.style.top = Math.random() * 100 + '%';
+                    star.style.color = starColors[Math.floor(Math.random() * starColors.length)];
+                    star.style.opacity = opacity;
+                    star.style.setProperty('--duration', (Math.random() * 3 + 2) + 's');
+                    star.style.animationDelay = Math.random() * 5 + 's';
+                    bg.appendChild(star);
+                }
+            }
+
+            // Create 3 layers of stars
+            createStars(200, 3, 6, 1);    // Large bright stars
+            createStars(400, 1.5, 3, 0.7); // Medium stars
+            createStars(600, 0.8, 1.5, 0.4); // Small faint stars
+        }
+
+        // ============================================================
+        // NAVIGATION
+        // ============================================================
+        function initEvents() {
+            const navbar = document.getElementById('navbar');
+            const menuToggle = document.getElementById('menuToggle');
+            const navMenu = document.getElementById('navMenu');
+
+            window.addEventListener('scroll', () => {
+                navbar.classList.toggle('scrolled', window.scrollY > 100);
+            });
+
+            menuToggle.addEventListener('click', () => {
+                menuToggle.classList.toggle('active');
+                navMenu.classList.toggle('active');
+            });
+
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.addEventListener('click', () => {
+                    menuToggle.classList.remove('active');
+                    navMenu.classList.remove('active');
+                });
+            });
+
+            // Smooth scroll
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                });
+            });
+
+            // Keyboard shortcuts
+            document.addEventListener('keydown', (e) => {
+                if (e.altKey && e.key === 'h') {
+                    document.querySelector('#home').scrollIntoView({ behavior: 'smooth' });
+                }
+                if (e.altKey && e.key === 'p') {
+                    document.querySelector('#projects').scrollIntoView({ behavior: 'smooth' });
+                }
+                if (e.altKey && e.key === 'c') {
+                    document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        }
+    </script>
+</body>
+</html>
